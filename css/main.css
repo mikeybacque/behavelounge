@@ -17,44 +17,17 @@ html {
 }
 
 body {
-  background-color:  #fef2f4;
+  margin: 0;
+  position: relative;
 }
 
-h1 {
-  text-align: center;
-  font-size: 3em;
-  font-family: Helvetica, sans-serif;
-  margin-top: .5em;
-  padding-left: .5em;
-  padding-right: .5em;
-}
-
-.chair {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding-top: 1em;
+.photo {
+  width: 100vw;
 }
 
 .logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100px;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  position: absolute;
+  top: 40vh;
+  margin: -2em;
 
-}
-
-@media only screen and (min-width: 22em) {
-  h1 {
-    font-size: 4em;
-  }
-}
-
-@media only screen and (min-width: 40em) {
-  h1 {
-    font-size: 5em;
-  }
 }
